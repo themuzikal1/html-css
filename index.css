@@ -1,42 +1,45 @@
+
 h1 {
-  color: #E6E9EB;
-  font-family: arial narrow;
+  color: #62BBE1;
+  font-family: 'Cinzel Decorative', cursive;
   font-size: 40px;
+  text-align:center;
 
 }
 h4 {
   font-family: arial narrow;
-  color: #E6E9EB
+  color: #62BBE1;
 }
 
 p {
-  color: color: #E6E9EB
+  color: color: #62BBE1;
   font-family: arial narrow;
 }
 
 body {
-  background-image: url(Images/piano.jpg);
-  background-size: cover;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   font-family: arial narrow;
-  color: #E6E9EB;
+  font-size: 30px;
+  color: #ECEFF1;
 }
 
 ul.hobbies {
-	color: color: #E6E9EB
+	color: color: #62BBE1;
 }
 ul.navBar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
-	border: 1px solid #e73737;
+	background-color: #6C49D5;
+	border: 2px solid #A4A0B2;
+	position:sticky;
 	
 }
 
 li.navBar {
 	float: left;
-	color: color: #E6E9EB
+	color: color: #62BBE1;
 	display: inline;
 }
 li.navBar a {
@@ -58,5 +61,6 @@ nav {
 }
 
 a {
-	color: #E6E9EB;
+	color: #62BBE1;
 }
+
