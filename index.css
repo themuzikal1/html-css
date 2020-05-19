@@ -1,6 +1,7 @@
 h1 {
   color: #E6E9EB;
   font-family: arial narrow;
+  font-size: 40px;
 
 }
 h4 {
@@ -20,6 +21,42 @@ body {
   color: #E6E9EB;
 }
 
-li {
+ul.hobbies {
 	color: color: #E6E9EB
+}
+ul.navBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	border: 1px solid #e73737;
+	
+}
+
+li.navBar {
+	float: left;
+	color: color: #E6E9EB
+	display: inline;
+}
+li.navBar a {
+	display: block;
+	color: white;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li.navBar a:hover {
+	background-color: #111;
+
+}
+
+nav {
+	font-family: arial narrow;
+	font-size: 25px;
+}
+
+a {
+	color: #E6E9EB;
 }
