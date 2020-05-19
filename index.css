@@ -1,4 +1,9 @@
-
+body {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  font-family: arial narrow;
+  font-size: 20px;
+  color: #ECEFF1;
+}
 h1 {
   color: #62BBE1;
   font-family: 'Cinzel Decorative', cursive;
@@ -14,13 +19,6 @@ h4 {
 p {
   color: color: #62BBE1;
   font-family: arial narrow;
-}
-
-body {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  font-family: arial narrow;
-  font-size: 30px;
-  color: #ECEFF1;
 }
 
 ul.hobbies {
