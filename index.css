@@ -1,16 +1,25 @@
-h1{
-  color: rgb(240, 240, 240);
+h1 {
+  color: #E6E9EB;
+  font-family: arial narrow;
+
+}
+h4 {
+  font-family: arial narrow;
+  color: #E6E9EB
+}
+
+p {
+  color: color: #E6E9EB
   font-family: arial narrow;
 }
-h4{
+
+body {
+  background-image: url(Images/piano.jpg);
+  background-size: cover;
   font-family: arial narrow;
-  color: rgb(10, 10, 10)
+  color: #E6E9EB;
 }
-body{
-  background-color: #089AD9;
-  font-family: arial narrow;
-}
-p{
-  color: rgb(40, 40, 40);
-  font-family: arial narrow;
+
+li {
+	color: color: #E6E9EB
 }
