@@ -17,14 +17,9 @@ h2 {
 }
 img {
 	width: 30%;
-	float: left;
-	margin: 1.66%;
-	image-orientation: from-image;
-	color: #62BBE1;
-  	font-family: 'Righteous', cursive;
-  	font-size: 30px;
- 
+	
 }
+
 ul.navBar {
 	list-style-type: none;
 	margin: 0;
@@ -58,14 +53,22 @@ nav {
 	font-family: 'Righteous', cursive;
 	font-size: 20px;
 }
-.logo {
-	width: 75%;
-	float: left;
-  	font-family: 'Righteous', cursive;
-  	font-size: 30px;
-  	text-align:left;
 
+
+label{
+	font-family: arial narrow;
+	color: #C9C5D6;
+	font-size: 20px;
 }
-.contact {
-	position: center;
+p{
+	font-family: arial narrow;
+	color: #C9C5D6;
+	font-size: 20px;
+}
+.center {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 30%;
+}
 }
