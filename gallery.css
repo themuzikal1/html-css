@@ -1,5 +1,6 @@
 body {
 	background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+	background-size: cover;
 }
 h1 {
   color: #62BBE1;
@@ -7,16 +8,19 @@ h1 {
   font-size: 40px;
   text-align:center;
 }
-
-img {
-	width: 30%;
+div.gallery {
+	margin: 10px;
 	float: left;
-	margin: 1.66%;
-	image-orientation: from-image;
-	color: #62BBE1;
-  	font-family: 'Righteous', cursive;
-  	font-size: 30px;
-  	text-align:center;
+	width: 180px;
+}
+
+div.gallery:hover{
+	border: 1px solid #777;
+}
+div.gallery img {
+	width: 100%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 ul.navBar {
 	list-style-type: none;
@@ -33,6 +37,7 @@ li.navBar {
 	float: left;
 	color: color: #EEEBFA;
 	display: inline;
+	border-right: 1px solid #473B7B;
 }
 li.navBar a {
 	display: block;
@@ -50,4 +55,20 @@ li.navBar a:hover {
 nav {
 	font-family: 'Righteous', cursive;
 	font-size: 20px;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #C9C5D6;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
 }

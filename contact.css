@@ -2,12 +2,14 @@
 body {
 	background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
 	text-align: center;
+	background-size: cover;
 }
 h1 {
   color: #62BBE1;
   font-family: 'Righteous', cursive;
   font-size: 40px;
   text-align:center;
+  
 }
 
 h2 {
@@ -15,9 +17,11 @@ h2 {
   font-family: 'Righteous', cursive;
   font-size: 30px;
   text-align:center;
+  
 }
 img {
-	width: 30%;
+	width: 20%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	
 }
 
@@ -36,6 +40,7 @@ li.navBar {
 	float: left;
 	color: color: #EEEBFA;
 	display: inline;
+	border-right: 1px solid #473B7B;
 }
 li.navBar a {
 	display: block;
@@ -74,4 +79,18 @@ p{
 }
 form {
 display: inline-block;
+border: 1px solid #C9C5D6;
+box-sizing: border-box;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: #3584A7
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #C9C5D6;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24;
 }
